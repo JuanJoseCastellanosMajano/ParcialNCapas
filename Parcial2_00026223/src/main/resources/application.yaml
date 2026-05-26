@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Parcial2_00026223
+
+    DATABASE URL: jdbc:postgresql://localhost:5432/postgres
+    DATABASE_USERNAME: postgres
+    DATABASE_PASSWORD: admin
+
+    jpa:
+      show-sql: false
+      hibernate:
+        ddl-auto: update
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
